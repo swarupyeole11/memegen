@@ -18,7 +18,7 @@ export default function Form() {
 
   function getMemeImage() {
     const x = Math.floor(Math.random() * allMemeDataArr.length);
-    console.log("jevlas ks");
+    console.log("jeas ks");
     setMeme((prevState)=>{
       return {...prevState,imageUrl:allMemeDataArr[x].url}
     });
